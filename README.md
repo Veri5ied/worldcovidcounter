@@ -9,6 +9,7 @@ A simple covid19 counter created with vanilla JS to keep track of cases around t
 <li> CSS</li>
 <li> JAVASCRIPT</li>
 </ul>
+
 # Author
 Alvin Uchenna
 
