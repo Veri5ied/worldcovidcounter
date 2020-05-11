@@ -31,11 +31,6 @@ body {
     font-size: 2.7em;
 }
 
-.head-img {
-    float: right;
-    width: 100px;
-}
-
 .question {
     font-size: 1.3em;
 }
@@ -181,14 +176,6 @@ img {
         padding: 12px;
         width: 100%;
         font-size: 2.5em;
-    }
-
-    .head-img {
-        position: absolute;
-        right: 30%;
-        bottom: 75%;
-        width: 100px;
-        height: auto;
     }
 
     .caption {
