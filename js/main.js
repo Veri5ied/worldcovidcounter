@@ -7,11 +7,11 @@ const active = document.getElementById('active');
 fetch("https://api.covid19api.com/summary")
     .then((response) => response.json())
     .then(data => {
-        affected.textContent = data.Global.TotalConfirmed;
-        death.textContent = data.Global.TotalDeaths;
-        recovered.textContent = data.Global.TotalRecovered;
-        serious.textContent = data.Global.NewDeaths;
-        active.textContent = data.Global.NewConfirmed;
+        affected.textContent = data.Global.TotalConfirmed.toLocaleString();
+        death.textContent = data.Global.TotalDeaths.toLocaleString();
+        recovered.textContent = data.Global.TotalRecovered.toLocaleString();
+        serious.textContent = data.Global.NewDeaths.toLocaleString();
+        active.textContent = data.Global.NewConfirmed.toLocaleString();
 
     })
     .catch(error => console.log('error', error));
